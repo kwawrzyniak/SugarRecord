@@ -1,5 +1,6 @@
 import Foundation
 import CoreData
+import UIKit
 
 @available(OSX 10.12, *)
 public class CoreDataObservable<T: NSManagedObject>: RequestObservable<T>, NSFetchedResultsControllerDelegate where T:Equatable {
